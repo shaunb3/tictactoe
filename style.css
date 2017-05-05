@@ -1,0 +1,57 @@
+
+table{
+	margin: 0 auto;
+}
+
+h1, #messages{
+	text-align: center;
+}
+
+.square{
+	width: 50px;
+	height:50px;
+	text-align: center;
+}
+
+.X{
+	color:red;
+}
+
+.O{
+	color:green;
+}
+
+#playerScoreX{
+	text-align: left;
+	float: left;
+	background-color: #FF3838;
+	padding: 10px;
+	color: white;
+}
+
+#playerScoreO{
+	text-align: right;
+	float: right;
+	background-color: #00C129;
+	padding: 10px;
+	color: white;
+
+}
+
+.clearfix{
+	content: "";
+  	display: inline-block;
+  	clear: both;
+}
+
+#reset{
+	text-align: center;
+	color: white;
+	background-color: tomato;
+	width: 100px;
+	margin: 0 auto;
+	/*height: 50px;*/
+	border-radius: 4px;
+	padding-top:15px; 
+	padding-bottom:15px;
+}
